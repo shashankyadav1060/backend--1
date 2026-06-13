@@ -2,7 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "a basic backend",
-  "keywords": ["javascript", "backend"],
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
   "license": "ISC",
   "author": "shashank",
   "type": "module",
@@ -14,6 +17,8 @@
     "nodemon": "^3.1.14"
   },
   "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongoose": "^9.7.0",
